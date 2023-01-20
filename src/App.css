@@ -1,38 +1,157 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+:root {
+  --white-color: #fff;
+  /* --primary-color:  #ef9273; */
+  --primary-color: #0199ae;
+  --secondary-color: #fef9f8;
+  --black-color: #0d0d0d;
+  --off-color: #919191;
+  --genuine-color:#fcf3ec;
+  --offwhite-color: #f2f2f3;
+  --font-fam1: "Alata", sans-serif;
+}
+body{
+
+}
+p{
+  padding: 0px;
+  margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+h1,.h1{
+  
+}
+h2,.h2{
+
+}
+h3,.h3{
+
+}
+h4,.h4{
+
+}
+h5,.h5{
+
+}
+h6,.h6{
+
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  color: var(--tertiary-color) !important;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+}
+@media only screen and (min-width:1025px) and (max-width:1200px){
+
+}
+.selected-main{
+  background-color: var(--offwhite-color);
   text-align: center;
+  padding: 64px ;
+}
+.check{
+  text-align: center;
+  font-family: var(--font-fam1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-main{
+  background-color: var(--primary-color);
+  color: var(--genuine-color);
+  border-radius: 8px;
+  border: none;
+  padding: 6px 16px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-main1{
+  background-color: var(--primary-color);
+  color: var(--genuine-color);
+  border-radius: 8px;
+  border: 1px solid var(--secondary-color);
+  padding: 6px 16px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-data label{
+  color: var(--primary-color);
 }
-
-.App-link {
-  color: #61dafb;
+.feed-main{
+  background-color: var(--genuine-color);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-data{
+  margin: 36px 86px;
+}
+.input-data label{
+  font-family: var(--font-fam1);
+  font-size: 25px;
+}
+input[type="checkbox"] {
+  /* increase the width and height of the checkbox */
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.feed-card{
+  padding: 12px;
+  border:1px solid var(--genuine-color);
+  border-radius: 8px;
+}
+.feed-scroll{
+  padding: 36px ;
+  height: 600px;
+  overflow-y: scroll;
+}
+.feed-container{
+  background-color: var(--primary-color);
+  padding: 64px;
+  font-family: var(--font-fam1);
+  color: var(--genuine-color);
+}
+.video-content{
+  height: 400px;
+  width: 100%;
+}
+.feed-card-img{
+ 
+}
+.feed-card-img img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.feed-author{
+  display: inline-block;
+  margin-top: 12px;
+}
+.feed-author img{
+  border-radius: 50%;
+  height: 50px;
+  object-fit: cover;
+}
+.feed-author label{
+  margin-left: 12px;
+}
+.recom-main{
+  padding: 36px 26px;
+  background-color: var(--primary-color);
+  font-family: var(--font-fam1);
+  color: var(--genuine-color);
+  border-radius: 8px;
+  position: fixed;
+  z-index: 100000;
+}
+.recommendation{
+  margin: 16px 36px;
 }
